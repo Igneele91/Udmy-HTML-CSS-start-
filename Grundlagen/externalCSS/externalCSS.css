@@ -1,10 +1,18 @@
 html {
   background-color: blue;
   color: white;
-
-}
+    }
 
 h1 {
-  front-size: 70px;
+  front-size: 30px;
   text-decoration: underline;
+  }
+
+p {
+  color: purple;
+}
+
+span {
+  color: white;
+  front-weight: bold;
 }
