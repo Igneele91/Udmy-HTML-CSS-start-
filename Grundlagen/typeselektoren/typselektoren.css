@@ -1,16 +1,42 @@
+html {
+  background-color: black;
+  border: 4px solid orange;   /*   für das ganze html file zu erfassen !  */
+}
 
-/*
+
+body {
+  color: red;
+  border: 2px solid red;
+
+}                           /* vieles sieht man auch den erklärungen  */
+
+h1 {
+  color: blue;
+  border: inherit;      /*   es kann border: inherit;   verwenden  */
+   }                    /*  oder man verwendet=  border: solid; als Beispiel */
+
+p {
+  border: inherit;
+}
+
+span {
+  color: yellow;
+  border: inherit;
+  }
+
+b {
+   color: green;
+   border: inherit;
+}
+
+
+
+/*-----------------------------------------
 html {
   background-color: blue;
   color: white;
      }
-*/
 
-
-
-
-
-/*
 h1 {
   front-size: 30px;
   text-decoration: underline;
@@ -23,7 +49,4 @@ p {
 span {
   color: white;
   front-weight: bold;
-}
-
-
-*/
+}  */
