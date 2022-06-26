@@ -3,5 +3,23 @@
 }
 
 .wichtig {
-  front-weigth: bold;
+  font-weight: bold;
 }
+
+p.gefahr{
+  text-decoration: underline;
+}
+
+span.wichtig {
+  background-color: blue;
+}
+
+
+/*  man kann mit der klasse = class im html file
+spezifisch text färben.
+
+Im Browser ausgeben dan sieht man es
+
+Feler passieren bei inkorrektem schreiben.
+
+*/
