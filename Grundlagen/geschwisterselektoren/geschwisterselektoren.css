@@ -1,0 +1,11 @@
+span ~ i {
+  color: red;
+}
+
+/* geschwister selektoren sind unabänig davon wenn neue elemente kommt  */
+
+i ~ b {
+   color: blue;
+}
+
+/* das ist das geschwister element mit ( span  ~ i ) im css was damit gemeint ist */
