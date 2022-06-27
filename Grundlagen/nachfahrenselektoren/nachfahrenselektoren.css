@@ -1,0 +1,32 @@
+html {
+  background-color: black;
+  color: green;
+}
+
+
+
+/*  das ist das ganze nachfahren selektoren  ( p  b  )  */
+
+/*  immer daran denken an die reihenfolge wie der aufbau der css ist !!   */
+body span i {
+  background-color: white;
+  color: red;
+
+}    /*   ein vereinzeltes eslement white   */
+
+html p i {
+  font-size: 40px;
+}
+
+
+p b {
+  color: yellow;
+}
+
+/* Komentar */
+
+span b  {
+  color: orange;
+
+  }
+}
