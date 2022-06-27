@@ -1,3 +1,13 @@
 html{
   background-color: green;
 }
+
+
+#warnung {
+  color: orange;
+}
+
+#test {
+  background-color: yellow;  /* auf den hintergrund text der ID */
+  color: black;      /* und die farbe des textes der ID  */
+}
