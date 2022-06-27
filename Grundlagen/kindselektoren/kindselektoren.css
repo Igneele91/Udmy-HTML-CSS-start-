@@ -1,0 +1,28 @@
+p > span {
+  color: red;
+}
+
+ /* das b ist ein kind element von b  */
+p > b {
+  color: blue;
+}
+
+
+span > b {
+  color: green;
+}
+
+
+/* hier selektiert man den pfad mit den kinds selecktion ganz einfach ! */
+html > body > p > span > i{
+  color: pink;
+  background-color: black;
+  fornt-weight: bold;
+}
+
+
+
+html{
+    background-color: grey;
+    color: violet;
+}
