@@ -1,0 +1,46 @@
+html {
+  background-color: #3f888f;
+}
+
+
+
+b ~ span > b {
+  color: red;
+  background-color: black;             /* macht die letzte zeile rot ! */
+} /*     b ~ span > b   =  b und span sind geschwister und das kind erbt von span element !      */
+  /*    die Kombination von verschiedenen Selektoren =   span > b    = Kindselektor  b ist das Kind !   */
+
+p span.warnung {         /*    nachfahren selektoren mit der der klasse warnung !     */
+  color: yellow;
+  background-color: black;
+}
+
+.warnung ~ b {
+  color: pink;
+   /*  Geschwister selekotr mit einem typ selekor / von einer klasse zu einem geschwister selektor !     */
+}
+
+html head ~ body > p > b ~ #wichtig {    /* kannst auch nur #wichtig  schreiben weil verkürzte richtig antowrt !   */
+  font-size: 100px;
+  color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#wichtig {
+  color: blue;
+}
+
+
+
+*/
