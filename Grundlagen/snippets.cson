@@ -23,3 +23,4 @@
   'html':
     'prefix': 'html'
     'body': '<!DOCTYPE html>\n<html lang="de">\n\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title></title>\n\t\t<link rel="stylesheet" type="text/css" href="">\n\t</head>\n\n\t<body>\n\n\t</body>\n\n</html>'
+        
