@@ -84,8 +84,20 @@ div {
   border-left: 10px solid DodgerBlue;
 }
 
-#div13{                                /*  mix mein     */
+#div13 {                                /*  mix mein     */
   border-bottom: 10px dashed black;
   border-top: 20px dotted pink;
   border-right: 100px double violet;
   border-left: 30px dashed orange;
+}
+
+p {
+  background-color: DeepSkyBlue;
+  height: 80px;
+  width: 400px;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: border-box;
+  color: black;
+  padding: 60px;
+}
