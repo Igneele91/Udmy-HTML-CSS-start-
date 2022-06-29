@@ -1,0 +1,25 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  background-color: grey;
+  color: yellow;
+  width: 800px;      /*   Breite  */
+  height: 50px;
+
+}
+
+p {
+  background-color: grey;
+}
+
+p ~ p {
+  width: 400px;      /*   Breite  */
+  height: 500px;     /*   Höhe  */
+
+
+}
+
+/*   Höhe nur die breite und Höhe denk an 2Dimensional ! */
