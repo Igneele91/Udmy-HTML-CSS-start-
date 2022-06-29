@@ -21,7 +21,7 @@ body {
 }
 
 #em {
-  font-size: 2em;
+  font-size: 2em;  /* bezit sich die gröse des eltern elements also prozent ID */
 }
 
 .em {
