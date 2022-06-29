@@ -4,10 +4,10 @@ div {
   height: 300px;
   padding: 100px 50px 75px 25px;   /* InnenAbstand mit allen abstanden */
   margin: 100px 75px 80px 20px;    /* AussenAbstand mit allen abstanden */
-  margin-bottom: 20px;         /* Boden Abstand */
+  margin-bottom: 20px;         /* Boden Abstand =   nur den Boden definiert wichtig hier merken ! */
 }
 /* 1 Wert = top    2 Wert = right  3 Wert = bottom    4 Wert = left   */
-/* Für die kurz schreibweise = zeile 5 und 6 */ 
+/* Für die kurz schreibweise = zeile 5 und 6 */
 
 
 
