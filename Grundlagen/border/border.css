@@ -83,3 +83,9 @@ div {
   background-color: DeepSkyBlue;
   border-left: 10px solid DodgerBlue;
 }
+
+#div13{                                /*  mix mein     */
+  border-bottom: 10px dashed black;
+  border-top: 20px dotted pink;
+  border-right: 100px double violet;
+  border-left: 30px dashed orange;
