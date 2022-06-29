@@ -5,7 +5,7 @@
   background-color: #F00;
 }
 
-#prozent {
+#prozent {  /*  das ist % also auch skalierbar für handy als Beispiel */
   width: 20%;
   height: 20%;
   background-color: #0F0;
