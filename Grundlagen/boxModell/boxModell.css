@@ -1,0 +1,25 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+  background-color: grey;
+  color: yellow;
+  width:  300px;      /*   Breite  */
+  height:  50px;
+  padding: 30px;    /*  Innenabstand = padding  */
+  margin: 100px;    /*  Aussenabstand = margin   abstand von jeder seiter */
+  border:  20px solid green;    /*  die Grenz Breite dicke / Abstand = border  */
+
+}
+
+
+div {
+  background-color: grey;
+  width: 400px;
+  height: 400px;
+  padding: 30px;    /*  Innenabstand = padding  */
+  margin: 100px;    /*  Aussenabstand = margin   abstand von jeder seiter */
+  border:  20px solid red;   /*  die Grenz Breite dicke / Abstand = border  */
+}
