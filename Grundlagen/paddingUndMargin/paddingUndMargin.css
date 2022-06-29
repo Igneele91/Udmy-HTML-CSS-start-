@@ -2,7 +2,30 @@ div {
   background-color: grey;
   width: 300px;
   height: 300px;
-  padding: 100px 50px 75px 25px;
-  margin: 100px 75px 80px 20px;
-  margin-bottom: 20px;
+  padding: 100px 50px 75px 25px;   /* InnenAbstand mit allen abstanden */
+  margin: 100px 75px 80px 20px;    /* AussenAbstand mit allen abstanden */
+  margin-bottom: 20px;         /* Boden Abstand */
 }
+/* 1 Wert = top    2 Wert = right  3 Wert = bottom    4 Wert = left   */
+/* Für die kurz schreibweise = zeile 5 und 6 */ 
+
+
+
+/*
+
+--------------------------
+wahl 2  wäre manuel = zu aufwendig
+------------------------
+
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 50px;
+margin-bottom: 80px;
+
+
+padding-left: 10px;
+padding-right: 20px;
+padding-top: 50px;
+margin-bottom: 80px;
+
+*/
