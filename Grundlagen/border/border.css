@@ -5,8 +5,10 @@ div {
   margin-bottom: 20px;
 }
 
+/*  merke=  Border color +  border style   */
+
 #div1 {
-  border: 20px solid red;
+  border: 20px solid red;   /* solide  = ausgefültter rand */
 }
 
 #div2 {
@@ -17,60 +19,60 @@ div {
 
 #div3 {
   border-width: 20px;
-  border-style: dotted;
+  border-style: dotted;           /* dotted  = gepunkteter Rand  */
   border-color: red;
 }
 
 #div4 {
   border-width: 20px;
-  border-style: dashed;
+  border-style: dashed;          /* dashed  = gestrichelter Rand  */
   border-color: red;
 }
 
 #div5 {
   border-width: 20px;
-  border-style: double;
+  border-style: double;          /* double  =  doppelte  Rand  linien */
   border-color: red;
 }
 
 #div6 {
   border-width: 20px;
-  border-style: groove;
+  border-style: groove;         /* funki aber so halb halb schatten  aber naja */
   border-color: red;
 }
 
 #div7 {
   border-width: 20px;
-  border-style: ridge;
+  border-style: ridge;          /* der schatten verkehrt von groove styling */
   border-color: red;
 }
 
 #div8 {
-  border-width: 20px;
+  border-width: 20px;           /*  neeee */
   border-style: inset;
   border-color: red;
 }
 
 #div9 {
   border-width: 20px;
-  border-style: outset;
+  border-style: outset;       /* neee */
   border-color: red;
 }
 
-#div10 {
+#div10 {            /* in einer seite in verschiedenen border formen jede seite anderst !    */
   border-bottom: 10px solid blue;
   border-top: 20px dotted red;
   border-right: 100px groove pink;
   border-left: 30px dashed green;
 }
 
-#div11 {
+#div11 {            /* nur eine box mit gelber linie unter */
   border-bottom-width: 20px;
   border-bottom-style: solid;
   border-bottom-color: yellow;
 }
 
-#div12 {
+#div12 {              /* Benachrichtigung  Box   */
   color: white;
   font-weight: bold;
   height: 50px;
