@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
 
 body {
-  font-family: 'Times New Roman', 'Verdana', sans-serif;
+  font-family: 'Times New Roman', 'Verdana', sans-serif;   /*  sans serife eine  Serife Schrift Art ist aus der Mode gekommen */
 }
 
 #test1 {
@@ -24,6 +26,10 @@ body {
   font-family: monospace;
 }
 
+#test6 {
+  font-family: 'Splash', cursive;   /* Eigener Import der schrift art  */
+}
+
 #externeSchriftart {
-  font-family: 'Shizuru', 'Roboto', sans-serif;
+  font-family: 'Shizuru', 'Roboto', sans-serif;   /* Fals Shizuru nicht verfügbar ist dann kommt Roboto */
 }
