@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Spectral";
+  src: url(spectral-regular.ttf) format("truetype"),
+       url(spectral-regular.woff2)  format("woff2");
+       font-style: normal;    /* italic = kursiv schräg gedruckt  -  oder oblique =  auch ähnlich wie italic  */
+       font-weight: normal;    /* es gibt Bold = Fett gedruckt   = Werte Bereich von 100 bis 900    -  Wert 400 = entspricht Normal   -   Wert 700 = entspricht Bold  */
+}
+
+@font-face {
+  font-family: "Spectral Italic ";
+  src: url(spectral-regular.ttf) format("truetype"),
+       url(spectral-regular.woff2)  format("woff2");
+       font-style: normal;    /* italic = kursiv schräg gedruckt  -  oder oblique =  auch ähnlich wie italic  */
+       font-weight: normal;    /* es gibt Bold = Fett gedruckt   = Werte Bereich von 100 bis 900    -  Wert 400 = entspricht Normal   -   Wert 700 = entspricht Bold  */
+}
+
+@font-face {
+  font-family: "Spectral Bold";
+  src: url(spectral-regular.ttf) format("truetype"),
+       url(spectral-regular.woff2)  format("woff2");
+       font-style: normal;    /* italic = kursiv schräg gedruckt  -  oder oblique =  auch ähnlich wie italic  */
+       font-weight: bold;    /* es gibt Bold = Fett gedruckt   = Werte Bereich von 100 bis 900    -  Wert 400 = entspricht Normal   -   Wert 700 = entspricht Bold  */
+}
+
+body {
+  font-family: "Spectral";
+}
+
+
+/* andere Version: opentype  */
+/* woff2 ist für = Firefox  und chrom  */
