@@ -1,9 +1,11 @@
 #html5 {
-  height: 300px;
-  width: auto;
+  height: 300px;    /*  Höhe  wird dadurch angepasst  */
+  width: auto;     /* das es auto matisch angepasst wird mit dem Bilder die Breite seithenverhältnis  */
 }
 
 #css3 {
   height: 300px;
   width: auto;
 }
+
+/* und einbindung aus dem internet mit ID css3 !  */
