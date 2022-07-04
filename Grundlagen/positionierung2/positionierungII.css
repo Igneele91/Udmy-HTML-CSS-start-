@@ -1,27 +1,28 @@
 body {
-  height: 10000px;
+  height: 10000px;    /*  Das wir scrollen können sehr wichtig !  */
 }
 
 #fixedDIV {
   width: 200px;
   height: 200px;
   background-color: grey;
-  position: fixed;
+  position: fixed;    /*  das fix unten positioniert ! auch beim scrollen */
   bottom: 0;
   right: 0;
 }
 
-#stickyDIV {
+#stickyDIV {   /* sticky = bedeutet klebrig das klebt beim scrollen   */
   width: 200px;
   height: 200px;
   background-color: red;
   position: sticky;
   top: 80px;
-  margin-top: 350px;
+  margin-top: 350px;   /* bestimmt mit navigationsleiste automatisch
+                      mit kommt beim scrollen ! */
 }
 
 span {
-  position: static;
+  position: static;  /* der text bleibt stehen wo er ist !  */
   top: 300px;
   right: 200px;
 }
