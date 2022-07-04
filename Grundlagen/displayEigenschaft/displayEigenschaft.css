@@ -20,5 +20,5 @@
   background-color: #000;
   margin-bottom: 20px;
   color: #FFF;
-  display: inline-block;
+  display: inline-block;      /* 2 div nebeinander dargestellt wird wichtig !  */
 }
