@@ -3,8 +3,8 @@
   height: 400px;
   background-color: grey;
   position: relative;   /* so ungefähr kann man sagen ! */
-  top: 120px;
-  left: 200px;
+  top: 150px;    /*  verschiebung des blocks Grau !  */
+  left: 200px;   /*  verschiebung des blocks Grau !  Links aus ! */
 }
 
 #absolutesDIV {
@@ -12,8 +12,8 @@
   height: 50px;
   background-color: red;
   position: absolute;        /* fixe position */
-  top: 100px;
-  right: 200px;
+  top: 150px;   /* von oben soll es 100 Pixel verschoben werden ! */
+  right: 300px;
 }
 
 span {
