@@ -6,5 +6,5 @@ div {
 }
 
 #unserZiel {
-  border: 20px solid #F00;
+  border: 20px solid #F00;  /* nur ein roter rand um das besonder quadrat zu suchen */
 }
