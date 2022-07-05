@@ -14,7 +14,6 @@ body {
 #stickyDIV {   /* sticky = bedeutet klebrig das klebt beim scrollen   */
   width: 200px;
   height: 200px;
-  background-color: red;
   position: sticky;
   top: 80px;
   margin-top: 350px;   /* bestimmt mit navigationsleiste automatisch
