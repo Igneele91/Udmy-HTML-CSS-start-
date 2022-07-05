@@ -1,22 +1,27 @@
 /* LoVe Fears HAte */
 /* LoVe HAte */
 
+/* Das ist der Merk spruch als den 2 Spruch =  Love and HAte  */
+
 a:link {
-  color: #000;
+  color: #000;  /* muss immer zuerst sein weil die reihenfolge = main typ */
 }
 
 a:visited {
-  color: grey;
+  color: grey;   /* wenn mann die link website besucht hat  */
 }
 
 /* a:focus {
-
+fokusiert wen mit tab rumfährt
 } */
 
-a:hover {
+a:hover {          /* wenn man drüber fährt !   */
   color: blue;
 }
 
 a:active {
-  color: red;
+  color: red;   /* wenn man den link aktiviert  */
 }
+
+
+/* wichtig die reihenfolge ist sehr wichtig darum auch die reihen folge genau wie hier einahlten  */
