@@ -1,19 +1,24 @@
 .list1 {
-  list-style-type: square;
+  list-style-type: square; /* nur ein punkt *  standart bei listen */
 }
 
 .list2 {
-  list-style-position: inside;
+  list-style-position: inside;     /* die Punkte sind weiter eingerückt */
 }
 
 .list3 {
-  list-style-image: url(pfeil.png);
+  list-style-image: url(pfeil.png);  /* vom bild als punkt auflistung */
 }
 
 .list4 {
-  list-style: square inside url(pfeil.png);
+  list-style: square inside url(pfeil.png);   /* vom bild als punkt auflistung  im inneren ! */
 }
 
 .list5 > li {
-  display: inline-block;
+  display: inline-block;   /* liste von worte nacheinandner = punkt punkt punkt  */
 }
+
+/* liste 5 weil = navigation leiste horizontal = nebeneinander  */
+
+
+/* display inline block = erschaft elemente erschaft zwar elemente die inline stylbar sind aber dargestellt sind wie block elemente */
