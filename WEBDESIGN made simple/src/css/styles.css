@@ -35,9 +35,9 @@ html {
 
 
   .header-nav > img {
-    height: 50px;
+    height: 30px;
     weight: auto;
     position: absolute;
     left: 2rem;
-    top: .5rem;
+    top: .55rem;
   }
