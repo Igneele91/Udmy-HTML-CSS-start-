@@ -30,3 +30,10 @@ html {
     height: 50px;
     background-color: #303F45;
   }
+
+
+  .header-nav > img {
+    height: 50px;
+    weight: auto;
+    
+  }
