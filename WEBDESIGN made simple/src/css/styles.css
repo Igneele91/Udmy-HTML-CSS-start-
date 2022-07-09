@@ -56,6 +56,7 @@ html {
 
   .header-nav > ul > li {
     display: inline-block;
+    margin-left: 2rem;              /*  ABstand Menuleiste oder Navigationsleistezwischen einand kontakt Impressum etc  */
   }
 
 
