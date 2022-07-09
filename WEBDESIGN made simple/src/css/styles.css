@@ -37,7 +37,7 @@ html {
   }
 
 
-  .header-nav > img {
+  .header-nav > a > img {    /* da ein anker element reinkamm geht es auf den alten zustand zurück grösse gemeint  */
     height: 30px;
     weight: auto;
     position: absolute;
