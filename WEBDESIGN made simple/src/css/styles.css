@@ -56,7 +56,12 @@ html {
   .header-nav > ul > li {
     display: inline-block;            /*  ABstand Menuleiste oder Navigationsleistezwischen einand kontakt Impressum etc  */
     height: 100%;
-    padding: 0 .2rem 0 .rem;      /* bereich noch umradung  */
+    padding: 0 .4rem 0 .4rem;      /* bereich noch umradung  */
+  }
+
+  .header-nav > ul > li > a {
+    margin-top: .8rem;        /* positon in die mitte  */
+    display: inline-block;   /* umwandlung inline elemente  */
   }
 
 
