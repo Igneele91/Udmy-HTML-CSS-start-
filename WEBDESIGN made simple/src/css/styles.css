@@ -45,6 +45,9 @@ html {
   .header-nav > ul {
     margin:   0;
     padding:  0;
+    position: absolute;
+    right: 2rem;                  /* mit right 2rem und postion absolut on other side Navigationsleiste  */
+
   }
 
   .header-nav > ul > li {
