@@ -42,6 +42,11 @@ html {
     top: .55rem;
   }
 
+  .header-nav > ul {
+    margin:   0;
+    padding:  0;
+  }
+
   .header-nav > ul > li {
     display: inline-block;
   }
