@@ -16,5 +16,11 @@
 
 
   #test02{
-    background-image: red-fox.jfif
-  }
+    background-image:url("red-fox.jfif ");
+    }
+
+    #test03{
+      background-image: image()url("red-fox.jfif ");
+
+      background-repeat: repeat-x;
+      }
