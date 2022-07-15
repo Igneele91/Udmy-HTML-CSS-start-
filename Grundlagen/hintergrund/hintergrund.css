@@ -17,9 +17,13 @@
 
   #test02{
     background-image:url("red-fox.jfif ");
+    /* Hier noch !  */
     }
 
     #test03{
       background-image:url("red-fox.jfif ");
       background-repeat: repeat-x;
       }
+
+
+/* Hier noch !  */
