@@ -1,72 +1,75 @@
-div {
-  width: 600px;
-  height: 600px;
-  border: 2px solid grey;
-  margin-bottom: 20px;
-}
+  div {
+    width: 600px;
+    height: 600px;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+  }
 
-#test01 {
-  background-color: #FF5EA2;
-  background-image: url("red-fox1.png");
-}
+  #test01 {
+    background-color: #FF5EA2;
+    background-image: url("red-fox1.png");
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 
-#test02{
-  background-image: url("hintergrund.png");
-}
+  #test02{
+    background-image: url("hintergrund.png");
+  }
 
-#test03 {
-  background-image: url("hintergrund.png");
-  background-repeat: repeat-x; /* wiederholt auf der x achse merken.  */
-}
+  #test03 {
+    background-image: url("hintergrund.png");
+    background-repeat: repeat-x; /* wiederholt auf der x achse merken.  */
+  }
 
-#test04 {
-  background-image: url("hintergrund.png");
-  background-repeat: repeat-y;
-}
+  #test04 {
+    background-image: url("hintergrund.png");
+    background-repeat: repeat-y;
+  }
 
-#test05 {
-  background-image: url("hintergrund.png");
-  background-repeat: no-repeat;
-}
+  #test05 {
+    background-image: url("hintergrund.png");
+    background-repeat: no-repeat;
+  }
 
-#test06 {
-  background-image: url("hintergrund.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-}
+  #test06 {
+    background-image: url("hintergrund.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
 
-#test07 {
-  background-image: url("hintergrund.png");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
+  #test07 {
+    background-image: url("hintergrund.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
 
-#test08 {
-  background-image: url("hintergrund.png");
-  background-repeat: no-repeat;
-  background-position: right 200px bottom 300px;
-}
+  #test08 {
+    background-image: url("hintergrund.png");
+    background-repeat: no-repeat;
+    background-position: right 200px bottom 300px;
+  }
 
-#test09 {
-  background-image: url("hintergrund.png");
-  background-attachment: fixed;
-}
+  #test09 {
+    background-image: url("hintergrund.png");
+    background-attachment: fixed;
+  }
 
-/*
-BISHER:
+  /*
+  BISHER:
 
-background-color:
-background-image:
-background-repeat:
-background-attachment:
-background-position:
+  background-color:
+  background-image:
+  background-repeat:
+  background-attachment:
+  background-position:
 
-JETZT:
+  JETZT:
 
-background: color image repeat attachment position;
+  background: color image repeat attachment position;
 
-*/
+  */
 
-#test10 {
-  background: #EE45F3 url("hintergrund.png") repeat-y fixed left 20px top 30px;
-}
+  #test10 {
+    background: #EE45F3 url("hintergrund.png") repeat-y fixed left 20px top 30px;
+  }
