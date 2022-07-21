@@ -7,6 +7,7 @@ div {
 
 #test01 {
   background-color: #FF5EA2;
+  background-image: url("red-fox1.png");
 }
 
 #test02{
@@ -15,7 +16,7 @@ div {
 
 #test03 {
   background-image: url("hintergrund.png");
-  background-repeat: repeat-x;
+  background-repeat: repeat-x; /* wiederholt auf der x achse merken.  */
 }
 
 #test04 {
