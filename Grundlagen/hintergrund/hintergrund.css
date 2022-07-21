@@ -16,12 +16,12 @@
 
 
   #test02{
-    background-image:url("red-fox.jpg");
+    background-image:url("red-fox1.png");
     /* Hier noch !  */
     }
 
     #test03{
-      background-image:url("red-fox.jpg");
+      background-image:url("red-fox1.png");
       background-repeat: repeat-x;
       }
 
