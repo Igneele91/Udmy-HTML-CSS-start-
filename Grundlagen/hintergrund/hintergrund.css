@@ -16,12 +16,12 @@
 
 
   #test02{
-    background-image:url("red-fox.jfif ");
+    background-image:url("red-fox.jpg");
     /* Hier noch !  */
     }
 
     #test03{
-      background-image:url("red-fox.jfif ");
+      background-image:url("red-fox.jpg");
       background-repeat: repeat-x;
       }
 
