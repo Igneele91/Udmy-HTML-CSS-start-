@@ -5,7 +5,7 @@
     margin-bottom: 20px;
   }
 
-  
+
 
   #test01 {
     background-color: #FF5EA2;
@@ -39,6 +39,8 @@
     background-repeat: no-repeat;
     background-position: right top;
   }
+
+  /*  es ist immer von top left wird begonnen darum merken wichtig.  */  
 
   #test07 {
     background-image: url("hintergrund.png");
