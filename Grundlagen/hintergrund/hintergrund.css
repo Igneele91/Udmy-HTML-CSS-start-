@@ -40,7 +40,7 @@
     background-position: right top;
   }
 
-  /*  es ist immer von top left wird begonnen darum merken wichtig.  */  
+  /*  es ist immer von top left wird begonnen darum merken wichtig.  */
 
   #test07 {
     background-image: url("hintergrund.png");
@@ -56,7 +56,7 @@
 
   #test09 {
     background-image: url("hintergrund.png");
-    background-attachment: fixed;
+    background-attachment: fixed;   /*  das scroll wer der stander wert  = scroll    /  bei fix bleibt das bild mit dem effekt */ 
   }
 
   /*
