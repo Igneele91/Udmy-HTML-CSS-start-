@@ -56,8 +56,10 @@
 
   #test09 {
     background-image: url("hintergrund.png");
-    background-attachment: fixed;   /*  das scroll wer der stander wert  = scroll    /  bei fix bleibt das bild mit dem effekt */ 
+    background-attachment: fixed;   /*  das scroll wer der stander wert  = scroll    /  bei fix bleibt das bild mit dem effekt */
   }
+
+  /* background-attachment ist wichtig da diese funktion diesen effekt gibt  */
 
   /*
   BISHER:
