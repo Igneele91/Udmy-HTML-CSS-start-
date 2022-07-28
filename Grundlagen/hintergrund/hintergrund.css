@@ -76,6 +76,8 @@
 
   */
 
+  /* #EE45F3  = pink */
+
   #test10 {
     background: #EE45F3 url("hintergrund.png") repeat-y fixed left 20px top 30px;
   }
