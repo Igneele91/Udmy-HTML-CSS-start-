@@ -98,7 +98,10 @@
 
 
   .header-banner {
-    background: url("../image/hintergrund.jpg") no-repeat center center;
     width: 100%;
-    height: 400px;
+    height: 0;
+    padding-top: 20.83%;
+    background: url("../image/hintergrund.jpg") no-repeat center center;
+    background-size: contain;
+
   }
