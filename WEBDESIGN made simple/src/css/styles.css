@@ -94,8 +94,11 @@
 
   /*  === Header - Banner   ===  */
 
+  /* Merken mit dem Punkt Punkt wichtig um zu referenzieren !!!!  */
 
-  .header-banner{
+
+  .header-banner {
+    background: url("../image/hintergrund.jpg") no-repeat center center;
     width: 100%;
-    height: auto;
+    height: 400px;
   }
