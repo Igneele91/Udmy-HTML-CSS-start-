@@ -1,17 +1,20 @@
-#test {
-  height: 400px;
-  width: 400px;
-  background-color: grey;
-}
+  #test {
+    height: 400px;
+    width: 400px;
+    background-color: grey;
+  }
 
-#test::before {
-  content: "Ich bin das Pseudoelement before! ";
-  display: block;
-  background-color: red;
-}
+  #test::before {
+    content: "Ich bin das Pseudoelement before! ";
+    display: block;
+    background-color: red;                      /* im html file wird es vorher eingefügt  */
+  }
 
-#test::after {
-  content: " Ich bin das Pseudoelement after!";
-  display: block;
-  background-color: blue;
-}
+  #test::after {
+    content: " Ich bin das Pseudoelement after!";
+    display: block;
+    background-color: blue;           /* im html file wird es nachher eingefügt  */
+  }
+
+
+  /* content = steht für inhalt */
