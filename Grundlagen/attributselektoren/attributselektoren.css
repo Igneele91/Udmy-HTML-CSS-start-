@@ -1,47 +1,47 @@
-/* Ein Element mit einem bestimmten Attribut */
-[href] {
-  background-color: grey;
-}
+  /* Ein Element mit einem bestimmten Attribut */
+  [href] {
+    background-color: grey;                   /* [] attributselektoren werden immer in diesen Klammern = [] = 4 eckigen Klammern angegeben!  */
+  }
 
-/* Ein Element mit einem bestimmten Attribut mit einem bestimmten Wert */
+  /* Ein Element mit einem bestimmten Attribut mit einem bestimmten Wert */
 
-[id="dasIstEinAnker"] {
-  display: block;
-}
+  [id="dasIstEinAnker"] {
+    display: block;
+  }
 
-/* Ein Element mit einem bestimmten Attribut, das in einem seiner Werte einen bestimmten Wert haben muss */
+  /* Ein Element mit einem bestimmten Attribut, das in einem seiner Werte einen bestimmten Wert haben muss */
 
-[class~="einBild"] {
-  height: 100px;
-}
+  [class~="einBild"] {
+    height: 100px;
+  }
 
-/* Ein Element mit einem bestimmten Attribut, das entweder genau einen bestimmten Wert hat
-oder oder mit einem bestimmten Wert beginnt, dem ein "-" folgt */
+  /* Ein Element mit einem bestimmten Attribut, das entweder genau einen bestimmten Wert hat
+  oder oder mit einem bestimmten Wert beginnt, dem ein "-" folgt */
 
-[class|="test"] {
-  width: 300px;
-}
+  [class|="test"] {
+    width: 300px;
+  }
 
-/* Ein Element mit einem bestimmten Attribut, das mit einem bestimmten Wert beginnt */
+  /* Ein Element mit einem bestimmten Attribut, das mit einem bestimmten Wert beginnt */
 
-[title^="Ich bin"] {
-  border: 10px solid red;
-}
+  [title^="Ich bin"] {
+    border: 10px solid red;
+  }
 
-/* Ein Element mit einem bestimmten Attribut, das mit einem bestimmten Wert endet */
+  /* Ein Element mit einem bestimmten Attribut, das mit einem bestimmten Wert endet */
 
-[title$="Anker-Element"] {
-  color: white;
-}
+  [title$="Anker-Element"] {
+    color: white;
+  }
 
-/* Ein Element mit einem bestimmten Attribut, das einen bestimmten Wert enthält (egal wo!) */
+  /* Ein Element mit einem bestimmten Attribut, das einen bestimmten Wert enthält (egal wo!) */
 
-[id*="IstEin"] {
-  text-decoration: none;
-}
+  [id*="IstEin"] {
+    text-decoration: none;
+  }
 
-/* Das "i" sorgt dafür, dass Groß- und Kleinschreibung keine Rolle spielt */
+  /* Das "i" sorgt dafür, dass Groß- und Kleinschreibung keine Rolle spielt */
 
-[id*="anker" i] {
-  font-weight: bold;
-}
+  [id*="anker" i] {                          /* Merke das =   i     = das ned  Groß- und Kleinschreibung nicht geachtet wird !  */
+    font-weight: bold;
+  }

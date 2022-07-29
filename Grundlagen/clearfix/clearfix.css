@@ -1,19 +1,24 @@
-.container {
-  background-color: grey;
-}
+  .container {
+    background-color: grey;
+  }
 
-img {
-  width: 200px;
-  height: 200px;
-  float: right;
-}
+  img {
+    width: 200px;
+    height: 200px;
+    float: right;
+  }
 
-p {
-  background-color: red;
-}
+  p {
+    background-color: red;
+  }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: block;
-}
+  .clearfix::after {
+    content: " Kuh macht Muh !! ";
+    clear: both;
+    display: block;
+  }
+
+
+
+
+/*  Merken vom Clearfix =  um den bereich ab zeile 15 !! Merken !!   */
