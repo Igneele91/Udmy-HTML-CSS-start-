@@ -1,38 +1,38 @@
-html, body {
-  width: 100%;
-  height: 100%;
-}
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
 
-body {
-  margin: 0;
-}
+  body {
+    margin: 0;
+  }
 
-img {
-  display: block;
-}
+  img {
+    display: block; /* diese macht das bild unten dran untereinder   wenn platz ist kommen sie in einegmeinsam zeile */
+  }
 
-.width {
-  width: 40%;
-  height: auto;
-}
+  .width {
+    width: 40%;
+    height: auto;
+  }
 
-.height {
-  width: auto;
-  height: 30%;
-}
+  .height {
+    width: auto;
+    height: 30%;
+  }
 
-#test01 {
-  min-width: 400px;
-}
+  #test01 {
+    min-width: 400px;
+  }
 
-#test02 {
-  max-width: 400px;
-}
+  #test02 {
+    max-width: 400px;
+  }
 
-#test03 {
-  max-height: 100px;
-}
+  #test03 {
+    max-height: 100px;
+  }
 
-#test04 {
-  min-height: 100px;
-}
+  #test04 {
+    min-height: 100px;
+  }
