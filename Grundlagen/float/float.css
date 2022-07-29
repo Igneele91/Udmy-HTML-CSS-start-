@@ -1,11 +1,13 @@
-p {
-  background-color: grey;
-}
+  p {
+    background-color: grey;
+  }
 
-.float-left {
-  float: left;
-}
+  .float-left {
+    float: left;
+  }
 
-.float-right {
-  float: right;
-}
+  .float-right {
+    float: right;
+  }
+
+  /* der text ist nebem dem bild wichtig merken bei clear nicht !! */

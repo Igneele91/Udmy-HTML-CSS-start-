@@ -1,23 +1,28 @@
-p {
-  background-color: grey;
-}
+  p {
+    background-color: grey;
+  }
 
-.float-left {
-  float: left;
-}
+  .float-left {
+    float: left;     /* der text ist bei float nebem dem bild wichtig merken bei clear nicht !! */
+  }
 
-.clear-left {
-  clear: left;
-}
+  .clear-left {
+    clear: left;          /* der text ist bei float nebem dem bild wichtig merken bei clear nicht wird es unter dem bild gesetzt  !! */
+  }
 
-.float-right {
-  float: right;
-}
+  .float-right {
+    float: right;
+  }
 
-.clear-right {
-  clear: right;
-}
+  .clear-right {
+    clear: right;
+  }
 
-.clear-both {
-  clear: both;
-}
+  .clear-both {
+    clear: both;
+  }
+
+
+
+  /*  Merken die float & clear ist immer wichtig
+    wo der paragraph text hin kommt um die position  */
