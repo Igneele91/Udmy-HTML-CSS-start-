@@ -120,6 +120,14 @@
       width: 95%;
       margin-left: auto;
       margin-right: auto;
-      height: 200px;
-      background-color: grey;
     }
+
+    .row::after  {
+      content: "";
+      clear: both;
+      display: block;             /* für den Inhalt merken */
+    }
+
+    
+
+    /* Komentar */
