@@ -128,6 +128,18 @@
       display: block;             /* für den Inhalt merken */
     }
 
+    [class*='col-'] {
+      float: left;
+      min-height: 1px;
+      height: 100px;
+      background-color: grey;
+    }
+
+    .col-1 { width: 16.666%; }
+    .col-2 { width: 33.333%; }
+    .col-3 { width: 50%;     }
+    .col-6 { width: 100%;    }
+
 
 
     /* Komentar */
