@@ -132,8 +132,6 @@
       float: left;
       min-height: 1px;
       padding: 8rem;
-      height: 100px;
-      background-color: grey;
     }
 
     .col-1 { width: 16.666%; }
