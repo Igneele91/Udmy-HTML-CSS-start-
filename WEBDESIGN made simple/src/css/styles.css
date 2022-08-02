@@ -158,6 +158,12 @@
 
     /*    === Wichtige Breakpoints   ===
 
+    320    Pixel     (iPhone Hochformat)
+    480    Pixel     (iPhone Querformat)
+    768    Pixel     (iPad Hochformat)
+    1024    Pixel     (iPad Querformat)
+    1200    Pixel     (Laptop)
+    >1200  Pixel     (grosse Endgeräte)
 
     */
 
