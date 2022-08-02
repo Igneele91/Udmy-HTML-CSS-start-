@@ -5,10 +5,10 @@
     /**** Farben ***/
 
     /*
-    Blau:            #1F4E8C
-    Dunkel Grau:     #3D3F45
-    Hell Grau:       #E5E5E5
-    Rot:             #A62C21
+    Blau:            #1F4E8C;
+    Dunkel Grau:     #3D3F45;
+    Hell Grau:       #E5E5E5;
+    Rot:             #A62C21;
 
     */
 
@@ -126,6 +126,13 @@
     position: absolute;
     bottom: -2px;
     left: 7px;
+  }
+
+  .mobile-nav-content > ul > li {
+    display: block;
+    background-color: #3D3F45;
+    height: 50px;
+    padding: 0 1.2rem;
   }
 
 
