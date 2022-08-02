@@ -34,6 +34,11 @@
     clear: both;
   }
 
+  .active {
+    background-color: #A62C21  !important;
+  }
+
+
 
   /*  ===  Navigationsleiste === */
 
@@ -112,9 +117,7 @@
     height: 100%;
   }
 
-  .active {
-    background-color: #A62C21;
-  }
+
 
 
 
@@ -129,6 +132,7 @@
     height: 37px;
     position: relative;
     margin-top: .4rem;
+    margin-bottom: 8px;
   }
 
 
@@ -141,22 +145,29 @@
 
   .mobile-nav-content > ul > li {
     display: block;
-    /* background-color: #3D3F45; */
-    background-color: red;
+    background-color: #3D3F45;
     height: 50px;
     padding: 0 1.2rem;
-    text-align: center; 
+    text-align: center;
   }
 
   .mobile-nav-dropdown{
     position: relative;
+    display: inline-block;
+    float: right;
   }
 
   .mobile-nav-content {
     position: absolute;
     right: 0;
     top: 50px;
+    display: none;
   }
+
+  .mobile-nav-dropdown:hover > .mobile-nav-content {
+    display: block;
+  }
+
 
 
 
