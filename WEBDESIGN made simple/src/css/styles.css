@@ -37,55 +37,63 @@
   }
 
 
-  .header-nav > a > img {    /* da ein anker element reinkamm geht es auf den alten zustand zurück grösse gemeint  */
+  .header-nav  a > img {    /* da ein anker element reinkamm geht es auf den alten zustand zurück grösse gemeint  */
     height: 30px;
-    weight: auto;
-    position: absolute;
+    width:  auto;
+    float: left;
     left: 2rem;
     top: .55rem;
   }
 
-  .header-nav > ul {
+  .header-nav  ul {
     margin:   0;
     padding:  0;
-    position: absolute;
+    float: right;
     right: 2rem;            /* mit right 2rem und postion absolut on other side Navigationsleiste  */
     height: 100%;
   }
 
-  .header-nav > ul > li {
+  .header-nav  ul > li {
     display: inline-block;            /*  ABstand Menuleiste oder Navigationsleistezwischen einand kontakt Impressum etc  */
     height: 100%;
     padding: 0 .4rem 0 .4rem;      /* bereich noch umradung  */
   }
 
-  .header-nav > ul > li > a {
+  .header-nav  ul > li > a {
     margin-top: .8rem;        /* positon in die mitte  */
     display: inline-block;   /* umwandlung inline elemente  */
   }
 
 
-  .header-nav > ul > li > a:link {
+  .header-nav  ul > li > a:link {
     color: #FFF;
     text-decoration: none;
 
   }
 
-  .header-nav > ul > li > a:hover {
+  .header-nav  ul > li > a:hover {
     color: #E5E5E5;
     text-decoration: none;
 
   }
 
-  .header-nav > ul > li > a:active {
+  .header-nav  ul > li > a:active {
     color: #E5E5E5;
     text-decoration: none;
 
   }
 
-  .header-nav > ul > li > a:visited {
+  .header-nav  ul > li > a:visited {
     color: #FFF;
     text-decoration: none;
+  }
+
+  .header-nav .col-6 {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+
   }
 
   .active {
