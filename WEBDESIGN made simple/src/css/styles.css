@@ -161,11 +161,35 @@
     320    Pixel     (iPhone Hochformat)
     480    Pixel     (iPhone Querformat)
     768    Pixel     (iPad Hochformat)
-    1024    Pixel     (iPad Querformat)
-    1200    Pixel     (Laptop)
+    1024    Pixel    (iPad Querformat)
+    1200    Pixel    (Laptop)
     >1200  Pixel     (grosse Endgeräte)
 
     */
+                                  /*  für handy ansicht die media query das Format */
+
+    @media (max-width: 1024px) {
+
+      .col-1 { width: 33.333%; }
+
+    }
+
+    @media (max-width: 768px) {
+
+      .col-1 { width: 50%;   }
+      .col-2 { width: 100%;  }
+      .col-3 { width: 100%;  }
+
+    }
+
+    @media (max-width: 480px) {
+
+      .col-1 { width: 50%;   }
+      .col-2 { width: 100%;  }
+      .col-3 { width: 100%;  }
+
+    }
+
 
 
 
