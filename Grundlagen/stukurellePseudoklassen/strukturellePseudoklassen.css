@@ -24,7 +24,7 @@
     background-color: grey;
   }
 
-  .container :nth-child(odd) {
+  .container :nth-child(odd) {   /*  füge demnächsten blau hinzu sind allso alle ungerade zahlen  */
     background-color: blue;
   }
 
@@ -48,7 +48,7 @@
     width: 600px;
   }
 
-  body :only-child {
+  body :only-child {           /* einzel kinder im body spezial fälle    */
     border: 5px solid red;
   }
 
