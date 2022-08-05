@@ -8,11 +8,11 @@
 
     fieldset {
       display: inline-block;
-      border: none;
+      border: none;                 <!-- die Rahmen der legende und label angezeigt   -->
     }
 
     label {
-      display: none;
+      display: none;                 <!-- die Rahmen der legende und label angezeigt   -->
     }
 
     </style>
@@ -24,24 +24,28 @@
 
       <fieldset>
 
-        <legend>Personen-Daten:</legend>
+        <legend>Personen-Daten:</legend>     <!-- legende = 1 teil vom bereich (legende Personen-Daten ) element   -->
 
-        <label for="name">Name:</label>
+        <label for="name">Name:</label>          <!-- Label = Beschriftung  im input element  sollte man immer benutzen in Formulare  -->
         <input id="name" type="text" name="name" placeholder="Dein Name"><br><br>
 
-        <fieldset>
+        <fieldset>					 <!-- Gruppe 1    -->
           <legend>Geschelcht:</legend>
-          <label for="männlich">Männlich</label>
+          <label for="männlich">Männlich</label>     <!-- Label for  = Beschriftung  für ein input element   -->
           <input id="männlich" type="radio" name="geschlecht" value="m">
-          <label for="weiblich">Weiblich</label>
+          <label for="weiblich">Weiblich</label>					 <!-- Label for  = Beschriftung  für ein input element   -->
           <input id="weiblich" type="radio" name="geschlecht" value="w"><br><br>
         </fieldset>
 
-      </fieldset>
+      </fieldset>         <!-- Gruppe 1    -->
+
+
+			     	<!-- Fieldset ist = Bereich oder Gruppe das fieldset Element    -->
+						 <!-- Legende ist die Beschriftung vom Fieldset    -->
 
       <br>
 
-      <fieldset>
+      <fieldset>               <!-- Gruppe 2    -->
 
         <legend>Login-Daten:</legend>
 
@@ -50,7 +54,7 @@
         <label for="passwort">Passwort:</label>
         <input id="passwort" type="password" name="passwort" placeholder="Dein Passwort"><br><br>
 
-      </fieldset>
+      </fieldset>               <!-- Gruppe 2    -->
 
       <br><br>
 
