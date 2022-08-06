@@ -5,14 +5,14 @@
     margin-bottom: 2rem;     /* Boxshadow = Schlag Schatten = Sieht cool aus !  */
   }
 
-  /* box-shadows: x-versatz y-versatz Weichzeichnung Vergrößerung Farbe (inset) */
-
+  /* box-shadows: x-versatz / y-versatz / Weichzeichnung / Vergrößerung / Farbe (inset) */
+                /* box shadow wir auch verschoben mit x und y achse  */
   #test01 {
     box-shadow: 5px 5px red;
   }
 
   #test02 {
-    box-shadow: 5px 5px 30px red;
+    box-shadow: 5px 5px 80px red;   /* Achte auf x achse und y achse */
   }
 
   #test03 {
@@ -20,7 +20,7 @@
   }
 
   #test04 {
-    box-shadow: 0 0 20px 10px green inset;
+    box-shadow: 0 0 20px 10px green inset;   /* shatten gegen innen gerichtet  */
   }
 
   #test05 {
