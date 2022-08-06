@@ -1,3 +1,11 @@
-:focus {
-  outline: 2px solid #F543E2;
-}
+  :focus {
+    outline: 2px solid #F543E2;
+    /* box-shadow: 0 0 0 10px red, 0 0 0 10px grey;    = alternative */
+  }
+
+
+  /* focus = fokusiert ein Element = eine visuelle orientierung  */
+
+  /* sorgt immer das bei focus  funktionier = auch für behinderte Mensch mit nur 1 auge */
+
+  /* wen man mit der taste = Tab oder Maus = ein Fokusiertes Element */
