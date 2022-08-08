@@ -11,12 +11,12 @@
 
   table#test01, table#test01 td, table#test01 th {
     border: 1px solid black;
-    border-collapse: collapse;
+    border-collapse: collapse;     /*  dan stehen gitter linen aussen */   /* border-collapse: seperate kann man auch verwendet  ist aber eher ein tipp */
   }
 
   table#test02, table#test02 td, table#test02 th {
     border: 1px solid black;
-    border-spacing: 10px;
+    border-spacing: 10px;                               /* border-spacing ein abstand im inneren der tabelle  */
   }
 
   /* background-color, caption-side, empty-cells, width und table-layout */
