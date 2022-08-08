@@ -10,7 +10,7 @@
   }
 
   #play:hover {
-    background: url("Sprite+Play+und+Pause.png") -200px 0;
+    background: url("Sprite+Play+und+Pause.png") -200px 0;   /*  weil wir ja verschieben via box shadow nach rechts */
   }
 
   #pause {
@@ -18,5 +18,5 @@
   }
 
   #pause:hover {
-    background: url("Sprite+Play+und+Pause.png") -200px -200px;
+    background: url("Sprite+Play+und+Pause.png") -200px -200px;         /*  weil wir ja verschieben via box shadow nach rechts und nach unten darum auch die 4 symbole  */
   }
