@@ -1,54 +1,56 @@
-/* Schriftart auf Raleway setzen */
-body {
-  font-family: 'Raleway', Arial, sans-serif;
-}
+  /* Schriftart auf Raleway setzen */
+  body {
+    font-family: 'Raleway', Arial, sans-serif;
+  }
 
-/* Caption linksbündig machen, Schrift etwas größer und margin-bottom einstellen */
-caption {
-  text-align: left;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
+  /* Caption linksbündig machen, Schrift etwas größer und margin-bottom einstellen */
+  caption {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    outline: 5px solid black;
+  }
 
-/* Tabelle 50% der Gesamtbreite machen und die Kanten kollabieren lassen */
-table {
-  width: 50%;
-  border-collapse: collapse;
-}
+  /* Tabelle 50% der Gesamtbreite machen und die Kanten kollabieren lassen */
+  table {
+    width: 50%;
+    border-collapse: collapse;
+  }
 
-/* Tabellenzeilen höher machen */
-tr {
-  height: 2rem;
-}
+  /* Tabellenzeilen höher machen */
+  tr {
+    height: 2rem;
+  }
 
-/* Alle geraden Tabellenzeilen (2., 4., 6. etc.) hell-grau machen */
-tr:nth-of-type(even) {
-  background-color: #efefef;
-}
+  /* Alle geraden Tabellenzeilen (2., 4., 6. etc.) hell-grau machen */
+  tr:nth-of-type(even) {
+    background-color: #B83DF1;
+  }
 
-/* Text in Tableheads linksbündig machen */
-th {
-  text-align: left;
-}
+  /* Text in Tableheads linksbündig machen */
+  th {
+    text-align: left;
+  }
 
-/* Tableheads und Tabledatas einen Innenabstand geben */
-th, td {
-  padding: .8rem;
-}
+  /* Tableheads und Tabledatas einen Innenabstand geben */
+  th, td {
+    padding: .8rem;
+    outline: 5px solid black;
+  }
 
-/* Kopf der Tabelle dunkel-grau machen */
-thead {
-  background-color: grey;
-}
+  /* Kopf der Tabelle dunkel-grau machen */
+  thead {
+    background-color: #D7F119;
+  }
 
-/* Körper der Tabelle unten eine dunkel-graue Kante geben */
-tbody {
-  border-bottom: 2px solid grey;
-}
+  /* Körper der Tabelle unten eine dunkel-graue Kante geben */
+  tbody {
+    border-bottom: 2px solid grey;
+  }
 
-/* Der Tabledata in der ersten Zeile im Fuß der Tabelle dicke Schrift geben */
-tfoot tr:first-of-type td {
-  font-weight: bold;
-}
+  /* Der Tabledata in der ersten Zeile im Fuß der Tabelle dicke Schrift geben */
+  tfoot tr:first-of-type td {
+    font-weight: bold;
+  }
 
-/* FERTIG! =) */
+  /* FERTIG! =) */
