@@ -7,8 +7,8 @@ div {
 /*
 
 @keyframes farbwechsel {
-  from { background-color: red; }
-  to { background-color: blue; }
+  from { background-color: red; }   start zustand 0%
+  to { background-color: blue; }    end zustand 100%
   0% { background-color: red; }
   17% { background-color: orange; }
   34% { background-color: yellow; }
@@ -18,7 +18,7 @@ div {
   100% { background-color: violet; }
 }
 
-*/
+*/    /* Farbverlauf von rot bis orang danach gelb verlauf und so weiter */
 
 @keyframes komplexereAnimation {
 
