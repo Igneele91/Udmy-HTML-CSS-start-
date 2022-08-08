@@ -55,11 +55,11 @@ div {
 
 }
 
-/* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+/* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */  /* wichtierger ablauf für den animation ablauf in css  */
 
 #test {
   position: relative;
-  animation: komplexereAnimation 5s ease-in-out 2s infinite alternate-reverse both running;
+  animation: komplexereAnimation 5s ease-in-out 2s infinite alternate-reve rse both running;
   /*
   animation: komplexereAnimation;
   animation-duration: 10s;
@@ -68,6 +68,6 @@ div {
   animation-direction: alternate-reverse;
   animation-play-state: running;
   animation-timing-function: ease-in-out;
-  animation-fill-mode: both;
+  animation-fill-mode: both;    status beibehalt und nicht zu grau werden
   */
 }
