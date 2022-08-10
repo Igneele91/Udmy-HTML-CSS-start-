@@ -3,7 +3,7 @@
     width: 600px;
     padding: 4rem;
     margin: 10rem;
-    transform: rotateZ(45deg); /*  um die kipp funktion für darstellung */
+    transform: rotateZ(45deg);
   }
 
   /* #test > p {
