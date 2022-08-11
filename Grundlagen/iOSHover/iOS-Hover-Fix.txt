@@ -1,1 +1,5 @@
 <script defer>document.addEventListener("touchstart", function(){}, true);</script>
+
+
+
+das ist das javascript funktion wo für ios gerät die funktion löst
